@@ -1,42 +1,232 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <title>Simon</title>
-  <link rel="stylesheet" href="styles.css">
-  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume VarunPattanaprisont</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body>
-  <h1 id="level-title">Press A Key to Start</h1>
-  <div class="container">
-    <div lass="row">
+<body class="bg-gray-50 flex justify-center py-10">
+    <div class="bg-white w-[1000px] ">
+        <div class="shadow-lg rounded-lg p-8">
+            <!-- Header -->
+            <div class="flex items-center border-b-2 border-cyan-500 pb-6">
+                <img src="./picture/รูปมหาลัย.jpg" alt="Profile"
+                    class="w-[150px] h-[180px] rounded-lg object-cover mr-6">
+                <div>
+                    <h1 class="text-3xl font-bold">Varun Pattanaprisont</h1>
+                    <p class="text-gray-600">Full-Stack Web Developer</p>
+                    <div class="flex flex-wrap mt-3 gap-4 text-sm text-gray-700">
+                        <div class="flex items-center gap-2">
+                            <span>📞</span> <span>089-1533163</span>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <span>✉️</span> <span>s6604022630365@email.kmutnb.ac.th</span>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <span>🌐</span> <a href="https://www.varunpat.site/"
+                                class="text-blue-500 hover:underline">www.VarunPat.site</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-      <div type="button" id="green" class="btn green">
+            <!-- Content -->
+            <div class="grid grid-cols-3 gap-6 mt-8">
+                <!-- Left Sidebar -->
+                <div class="col-span-1 space-y-6">
+                    <!-- Education -->
+                    <div>
+                        <h2 class="font-bold text-lg mb-2">EDUCATION</h2>
+                        <div class="space-y-3 text-sm">
+                            <div>
+                                <p class="font-semibold">Bachelor of Mathematic and Computer Science</p>
+                                <p>King Mongkut's University of Technology North Bangkok </p>
+                                <hr class="my-2">
+                                <p class="text-gray-500">2023 - Now</p>
+                            </div>
 
-      </div>
+                        </div>
+                    </div>
 
-      <div type="button" id="red" class="btn red">
+                    <!-- Expertise -->
+                    <div>
+                        <h2 class="font-bold text-lg mb-2">EXPERTISE</h2>
+                        <ul class="list-disc list-inside text-sm space-y-1">
+                            <li>Python
+                            <li>C#</li>
+                            <li>HTML CSS JavaScript/TypeScript</li>
+                            <li>Microsoft SQL Server</li>
+                            <li>Postman</li>
+                            <li>MongoDB</li>
+                            <li>PowerPoint</li>
+                            </li>
 
-      </div>
+                        </ul>
+                    </div>
+                    <!-- Frameworks -->
+                    <div>
+                        <h2 class="font-bold text-lg mb-2">Library</h2>
+                        <h2 class=" text-lg list-inside text-md space-y-1">Python</h2>
+                        <p>Numpy, Pandas, Matplotlib, Scikit Learn, Seaborn</p>
+                    </div>
+                    <div>
+                        <h2 class="font-bold text-lg mb-2">Backend Frameworks</h2>
+                        <h2 class=" text-lg list-inside text-md space-y-1">JavaScript/TypeScript</h2>
+                        <p>ExpressJS, NestJS, Body-Parser, Morgan </p>
+                    </div>
+                    <div>
+                        <h2 class="font-bold text-lg mb-2">Frontend Frameworks</h2>
+                        <p>Tailwinds, Boost-Strap</p>
+                    </div>
+
+                    <!-- Languages -->
+                    <div>
+                        <h2 class="font-bold text-lg mb-2">LANGUAGE</h2>
+                        <ul class="list-disc list-inside text-sm space-y-1">
+                            <li>Thai (Native)</li>
+                            <li>English</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Right Content -->
+                <div class="col-span-2 space-y-6 border-l-2 pl-4">
+                    <!-- Profile -->
+                    <div class="border-b-2 pb-4">
+                        <h2 class="font-bold text-lg mb-2">PROFILE</h2>
+                        <p class="text-sm text-gray-600">
+                            Self-motivated programmer with solid experience in full-stack web development, including
+                            front-end (HTML, CSS,
+                            JavaScript) and back-end (Python, Node.js, Nestjs,ExpressJS). Strong understanding of
+                            database
+                            management,
+                            algorithms, and software
+                            development best practices. Quick learner and team player, passionate about building
+                            high-quality, scalable
+                            applications.
+                        </p>
+                    </div>
+
+                    <!--Experience -->
+                    <div>
+                        <h2 class="font-bold text-lg mb-2">EXPERIENCE</h2>
+                        <div class="space-y-4 text-sm">
+                            <div>
+                                <div class="flex justify-between">
+                                    <p class="font-semibold">1.Break Out Game </p>
+                                    <p class="text-gray-500">2023</p>
+                                </div>
+                                <p class="italic">Programming, Graphic design, Project Manager </p>
+                                <ul class="list-disc list-inside text-gray-600">
+                                    <li>C# .NET Frameworks</li>
+                                    <li>a classic arcade game originally developed by Atari in 1976.
+                                        player controls a paddle at the bottom of the screen and uses it to bounce a
+                                        ball
+                                        upward to break a wall of bricks arranged at the top.</li>
+                                    <li>Learning the basic of C# programming</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <div class="flex justify-between">
+                                    <p class="font-semibold">2.Super Battle City</p>
+                                    <p class="text-gray-500">2024</p>
+                                </div>
+                                <p class="italic">Programming, Graphic design</p>
+                                <ul class="list-disc list-inside text-gray-600">
+                                    <li>C# .NET Frameworks</li>
+                                    <li>Super Battle City is based on Battle City that's a classic action arcade game
+                                        .In the game,
+                                        the player controls a tank on a battlefield but we changed the design to Space
+                                        Battle theme. Now you are pilot of the spaceship fight and dodge through the
+                                        army of
+                                        alien. Destroy all of them and find a Super-Weapon in each stage and Destroy
+                                        Alien's
+                                        base!! </li>
+                                    <li>Learning the fundamental of Object-Oriented-Programming with C#</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <div class="flex justify-between">
+                                    <p class="font-semibold">3.IHAVEGPU (Program Management Online Computer Store)</p>
+                                    <p class="text-gray-500">2024</p>
+                                </div>
+                                <p class="italic">Programming, Graphic design</p>
+                                <ul class="list-disc list-inside text-gray-600">
+                                    <li>C# .NET Frameworks ,Microsoft SQL Server</li>
+                                    <li>Develop a system that enables a computer store to efficiently manage products,
+                                        sales, inventory, and customer
+                                        information. The system aims to increase effiency, minimize redundancy, and
+                                        facilitate easy tracking of sales and stock
+                                        levels and tracking delivery. </li>
+                                    <li>Learning C# to connecting database with relational database SQL </li>
+                                </ul>
+                            </div>
+                            <div>
+                                <div class="flex justify-between">
+                                    <p class="font-semibold">4.CatShop (Program Management Pet Food Store)</p>
+                                    <p class="text-gray-500">2024</p>
+                                </div>
+                                <p class="italic">Programming, Graphic design</p>
+                                <ul class="list-disc list-inside text-gray-600">
+                                    <li>C# .NET Frameworks ,Microsoft SQL Server</li>
+                                    <li>Super Battle City is based on Battle City that's a classic action arcade game
+                                        .In the game,
+                                        the player controls a tank on a battlefield but we changed the design to Space
+                                        Battle theme. Now you are pilot of the spaceship fight and dodge through the
+                                        army of
+                                        alien
+                                        . Destroy all of them and find a Super-Weapon in each stage and Destroy Alien's
+                                        base!! </li>
+                                    <li>Learning the fundamental of Object-Oriented-Programming with C#</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <div class="flex justify-between">
+                                    <p class="font-semibold">5.Moodeng (Design an Action Mobile Game for Health care )
+                                    </p>
+                                    <p class="text-gray-500">2024</p>
+                                </div>
+                                <p class="italic">UX/UI Design, Content Creator</p>
+                                <ul class="list-disc list-inside text-gray-600">
+                                    <li>Flutter</li>
+                                    <li>A mobile avatar fighting game that let you train your Moodeng with your activity
+                                        exercise.
+                                        Make your Moodeng outstanding and get to top of players by send your Moodeng to
+                                        fight and win.
+                                    </li>
+                                    <li>Learning how to design and thinking to make a product i real-world</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- References -->
+                    <!-- <div>
+                    <h2 class="font-bold text-lg mb-2">REFERENCES</h2>
+                    <div class="grid grid-cols-2 gap-6 text-sm">
+                        <div>
+                            <p class="font-semibold">Bailey Dupont</p>
+                            <p>Wardiere Inc. / CEO</p>
+                            <p><span class="font-bold">Phone:</span> 123-456-7890</p>
+                            <p><span class="font-bold">Email:</span> hello@reallygreatsite.com</p>
+                        </div>
+                        <div>
+                            <p class="font-semibold">Harumi Kobayashi</p>
+                            <p>Wardiere Inc. / CEO</p>
+                            <p><span class="font-bold">Phone:</span> 123-456-7890</p>
+                            <p><span class="font-bold">Email:</span> hello@reallygreatsite.com</p>
+                        </div>
+                    </div>
+                </div> -->
+                </div>
+            </div>
+        </div>
+        <div class="h-[100px] bg-cyan-500"></div>
+
     </div>
-
-    <div class="row">
-
-      <div type="button" id="yellow" class="btn yellow">
-
-      </div>
-      <div type="button" id="blue" class="btn blue">
-
-      </div>
-
-    </div>
-
-  </div>
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="game.js" charset="utf-8"></script>
 
 </body>
 
